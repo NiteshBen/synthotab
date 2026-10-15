@@ -8,6 +8,10 @@
 
 > **Production-grade synthetic tabular data generation, multivariate Gaussian Copula dependency modeling, and $(\epsilon, \delta)$-Differential Privacy engine in Python.**
 
+<p align="center">
+  <img src="synthotab_launch_infographic.png" alt="SynthoTab Launch Infographic" width="720"/>
+</p>
+
 ---
 
 ## 🎯 The Enterprise Dilemma & Solution
