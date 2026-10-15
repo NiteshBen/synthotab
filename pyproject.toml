@@ -1,0 +1,61 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "synthotab"
+version = "0.1.0"
+description = "Production-grade synthetic tabular data generation & differential privacy engine in Python"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "Nitesh Beniwal", email = "niteshben01@gmail.com"}
+]
+keywords = [
+    "synthetic-data",
+    "tabular-data",
+    "differential-privacy",
+    "data-privacy",
+    "gaussian-copula",
+    "machine-learning",
+    "data-science",
+    "gdpr-compliance",
+    "hipaa-compliance",
+    "privacy-auditing"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Security :: Cryptography"
+]
+dependencies = [
+    "numpy>=1.22.0",
+    "pandas>=1.4.0",
+    "scipy>=1.8.0",
+    "scikit-learn>=1.0.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0"
+]
+
+[project.scripts]
+synthotab = "synthotab.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/NiteshBen/synthotab"
+Repository = "https://github.com/NiteshBen/synthotab"
+Issues = "https://github.com/NiteshBen/synthotab/issues"
